@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/motion_testFragment_two"
+        motion:constraintSetStart="@id/motion_testFragment_reseter4"
+        motion:duration="700"
+        motion:motionInterpolator="cubic(0.81,0,0.2,1)"
+        android:id="@+id/tran_testFragment_to2">
+        <KeyFrameSet>
+            <KeyAttribute
+                motion:motionTarget="@+id/const_testFragment_1"
+                motion:framePosition="50"
+                android:rotation="-15" />
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/motion_testFragment_reseter4">
+        <Constraint
+            android:id="@+id/const_testFragment_1"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="104dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="32dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="32dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:alpha="1"
+            android:elevation="4dp" />
+        <Constraint
+            android:id="@+id/const_testFragment_2"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="76dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="48dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="48dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:elevation="3dp"
+            android:alpha="1" />
+        <Constraint
+            android:id="@+id/const_testFragment_3"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="52dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="64dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="64dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:elevation="2dp"
+            android:alpha="1" />
+        <Constraint
+            android:id="@+id/const_testFragment_4"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="32dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="80dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="0"
+            android:layout_marginStart="80dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:elevation="1dp" />
+        <Constraint
+            android:id="@+id/const_testFragment_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0" />
+        <Constraint
+            android:id="@+id/const_testFragmentDialog_onBackPressed"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/motion_testFragment_two">
+        <Constraint
+            android:layout_height="0dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginBottom="148dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_width="0dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:id="@+id/const_testFragment_1"
+            motion:layout_constraintEnd_toStartOf="parent"
+            android:layout_marginEnd="64dp"
+            android:elevation="4dp"
+            android:alpha="0" />
+        <Constraint
+            android:id="@+id/const_testFragment_2"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="104dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="32dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="32dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:elevation="4dp"
+            android:alpha="1" />
+        <Constraint
+            android:id="@+id/const_testFragment_3"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="76dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="48dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="48dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:elevation="3dp"
+            android:alpha="1" />
+        <Constraint
+            android:id="@+id/const_testFragment_4"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="52dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="64dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1"
+            android:layout_marginStart="64dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:elevation="2dp" />
+        <Constraint
+            android:id="@+id/const_testFragment_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0" />
+        <Constraint
+            android:id="@+id/const_testFragmentDialog_onBackPressed"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0" />
+    </ConstraintSet>
+    <ConstraintSet
+        android:id="@+id/motion_testFragment_reseter1"
+        motion:deriveConstraintsFrom="@+id/motion_testFragment_two" >
+        <Constraint
+            android:id="@+id/const_testFragment_1"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_marginBottom="32dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginTop="32dp"
+            android:alpha="0"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:elevation="1dp" />
+        <Constraint
+            android:id="@+id/const_testFragment_2"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="104dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="32dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="32dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:elevation="4dp"
+            android:alpha="1" />
+        <Constraint
+            android:id="@+id/const_testFragment_3"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="76dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="48dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="48dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:elevation="3dp"
+            android:alpha="1" />
+        <Constraint
+            android:id="@+id/const_testFragment_4"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="52dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="64dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1"
+            android:layout_marginStart="64dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:elevation="2dp" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_two"
+        motion:constraintSetEnd="@+id/motion_testFragment_reseter1"
+        motion:autoTransition="none"
+        android:id="@+id/tran_testFragment_reseter1"
+        motion:duration="0" />
+    <ConstraintSet
+        android:id="@+id/motion_testFragment_three"
+        motion:deriveConstraintsFrom="@+id/motion_testFragment_reseter1" >
+        <Constraint
+            android:layout_height="0dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginBottom="148dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_width="0dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:id="@+id/const_testFragment_2"
+            motion:layout_constraintEnd_toStartOf="parent"
+            android:layout_marginEnd="64dp"
+            android:alpha="0"
+            android:elevation="4dp" />
+        <Constraint
+            android:id="@+id/const_testFragment_1"
+            android:elevation="2dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginStart="64dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="52dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1" />
+        <Constraint
+            android:id="@+id/const_testFragment_3"
+            android:elevation="4dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="104dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1" />
+        <Constraint
+            android:id="@+id/const_testFragment_4"
+            android:elevation="3dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginStart="48dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="76dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_reseter1"
+        motion:constraintSetEnd="@+id/motion_testFragment_three"
+        motion:autoTransition="none"
+        android:id="@+id/tran_testFragment_to3"
+        motion:duration="700"
+        motion:motionInterpolator="cubic(0.8,0,0.2,1)" >
+        <KeyFrameSet >
+            <KeyAttribute
+                motion:motionTarget="@+id/const_testFragment_2"
+                motion:framePosition="50"
+                android:rotation="-15" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet
+        android:id="@+id/motion_testFragment_reseter2"
+        motion:deriveConstraintsFrom="@+id/motion_testFragment_three" >
+        <Constraint
+            android:layout_height="0dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_width="0dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:id="@+id/const_testFragment_2"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="80dp"
+            android:layout_marginStart="80dp"
+            android:alpha="0"
+            android:elevation="1dp" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_three"
+        motion:constraintSetEnd="@+id/motion_testFragment_reseter2"
+        android:id="@+id/tran_testFragment_reseter2"
+        motion:duration="0" />
+    <ConstraintSet
+        android:id="@+id/motion_testFragment_four"
+        motion:deriveConstraintsFrom="@+id/motion_testFragment_reseter2" >
+        <Constraint
+            android:id="@+id/const_testFragment_4"
+            android:elevation="4dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="104dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1" />
+        <Constraint
+            android:layout_height="0dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginBottom="148dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_width="0dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:id="@+id/const_testFragment_3"
+            motion:layout_constraintEnd_toStartOf="parent"
+            android:layout_marginEnd="64dp"
+            android:elevation="4dp"
+            android:alpha="0" />
+        <Constraint
+            android:elevation="3dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginStart="48dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="76dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1"
+            android:id="@+id/const_testFragment_1" />
+        <Constraint
+            android:id="@+id/const_testFragment_2"
+            android:elevation="2dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginStart="64dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="52dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_reseter2"
+        motion:constraintSetEnd="@+id/motion_testFragment_four"
+        motion:motionInterpolator="cubic(0.8,0,0.2,1)"
+        android:id="@+id/tran_testFragment_to4"
+        motion:duration="700" >
+
+        <KeyFrameSet >
+            <KeyAttribute
+                motion:motionTarget="@+id/const_testFragment_3"
+                motion:framePosition="50"
+                android:rotation="-15" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet
+        android:id="@+id/motion_testFragment_reseter3"
+        motion:deriveConstraintsFrom="@+id/motion_testFragment_four" >
+        <Constraint
+            android:layout_height="0dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_width="0dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:id="@+id/const_testFragment_3"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="80dp"
+            android:layout_marginStart="80dp"
+            android:alpha="0"
+            android:elevation="1dp" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_four"
+        motion:constraintSetEnd="@+id/motion_testFragment_reseter3"
+        android:id="@+id/tran_testFragment_reseter3"
+        motion:duration="0" />
+    <ConstraintSet
+        android:id="@+id/motion_testFragment_one"
+        motion:deriveConstraintsFrom="@+id/motion_testFragment_reseter3" >
+        <Constraint
+            android:layout_height="0dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginBottom="148dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_width="0dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:id="@+id/const_testFragment_4"
+            motion:layout_constraintEnd_toStartOf="parent"
+            android:layout_marginEnd="64dp"
+            android:elevation="4dp"
+            android:alpha="0" />
+        <Constraint
+            android:elevation="4dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="104dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1"
+            android:id="@+id/const_testFragment_1" />
+        <Constraint
+            android:elevation="3dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginStart="48dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="76dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1"
+            android:id="@+id/const_testFragment_2" />
+        <Constraint
+            android:id="@+id/const_testFragment_3"
+            android:elevation="2dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginStart="64dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="52dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="1" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_reseter3"
+        motion:constraintSetEnd="@+id/motion_testFragment_one"
+        android:id="@+id/tran_testFragment_to1"
+        motion:motionInterpolator="cubic(0.8,0,0.2,1)"
+        motion:duration="700" >
+        <KeyFrameSet >
+            <KeyAttribute
+                motion:motionTarget="@+id/const_testFragment_4"
+                motion:framePosition="50"
+                android:rotation="-15" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_one"
+        motion:constraintSetEnd="@+id/motion_testFragment_reseter4"
+        motion:motionInterpolator="cubic(0.8,0,0.2,1)"
+        android:id="@+id/tran_testFragment_reseter4"
+        motion:duration="0" />
+    <ConstraintSet android:id="@+id/motion_starttest" >
+        <Constraint
+            android:id="@+id/const_testFragment_3"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="52dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="64dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="64dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="96dp"
+            android:alpha="0" />
+        <Constraint
+            android:id="@+id/const_testFragment_2"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="76dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="48dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="48dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="96dp"
+            android:alpha="0" />
+        <Constraint
+            android:id="@+id/const_testFragment_1"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="104dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="32dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="32dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="96dp"
+            android:alpha="0" />
+        <Constraint
+            android:id="@+id/const_testFragment_4"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="32dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="80dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="0"
+            android:layout_marginStart="80dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="96dp" />
+        <Constraint
+            android:id="@+id/const_testFragment_bottom"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="24dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:alpha="0" />
+        <Constraint
+            android:id="@+id/const_testFragmentDialog_onBackPressed"
+            android:elevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0" />
+        <Constraint
+            android:id="@+id/const_testFragment_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="4dp" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_starttest"
+        motion:constraintSetEnd="@+id/motion_testFragment_reseter4"
+        motion:motionInterpolator="easeInOut"
+        android:id="@+id/tran_starttest" />
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_reseter4"
+        motion:constraintSetEnd="@+id/motion_starttest"
+        motion:autoTransition="none"
+        android:id="@+id/tran_toDialog"
+        motion:duration="0" />
+    <ConstraintSet android:id="@+id/motion_onBackPressedDialog" >
+        <Constraint
+            android:id="@+id/const_testFragmentDialog_onBackPressed"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1" />
+        <Constraint
+            android:id="@+id/const_testFragment_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            motion:layout_constraintBottom_toTopOf="parent" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="52dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="64dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="64dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:id="@+id/const_testFragment_3" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="32dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="80dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:alpha="0"
+            android:layout_marginStart="80dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:id="@+id/const_testFragment_4" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="76dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="48dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="48dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:id="@+id/const_testFragment_2" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="104dp"
+            motion:layout_constraintBottom_toTopOf="@+id/const_testFragment_bottom"
+            android:layout_marginEnd="32dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+            android:layout_marginStart="32dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:id="@+id/const_testFragment_1" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_reseter4"
+        motion:constraintSetEnd="@+id/motion_onBackPressedDialog"
+        android:id="@+id/tran_testFragment_OBPDialogShowFrom1"
+        motion:motionInterpolator="easeInOut" />
+    <Transition
+        motion:constraintSetStart="@+id/motion_onBackPressedDialog"
+        motion:constraintSetEnd="@+id/motion_testFragment_reseter4"
+        android:id="@+id/tran_testFragment_OBPDialogHideTo1"
+        motion:motionInterpolator="easeInOut" />
+    <ConstraintSet
+        android:id="@+id/tran_testFragment_OBPDialogShowFrom2"
+        motion:deriveConstraintsFrom="@+id/motion_testFragment_reseter1" >
+        <Constraint
+            android:id="@+id/const_testFragmentDialog_onBackPressed"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_reseter1"
+        motion:constraintSetEnd="@+id/tran_testFragment_OBPDialogShowFrom2"
+        android:id="@+id/tran_testFragment_OBPDialogShowFrom2"
+        motion:motionInterpolator="easeInOut" />
+    <Transition
+        motion:constraintSetStart="@+id/tran_testFragment_OBPDialogShowFrom2"
+        motion:constraintSetEnd="@+id/motion_testFragment_reseter1"
+        motion:motionInterpolator="easeInOut"
+        android:id="@+id/tran_testFragment_OBPDialogHideTo2" />
+    <ConstraintSet
+        android:id="@+id/motion_testFragment_OBPDialog3"
+        motion:deriveConstraintsFrom="@+id/motion_testFragment_reseter2" >
+        <Constraint
+            android:id="@+id/const_testFragmentDialog_onBackPressed"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_reseter2"
+        motion:constraintSetEnd="@+id/motion_testFragment_OBPDialog3"
+        android:id="@+id/tran_testFragment_OBPDialogShowFrom3"
+        motion:motionInterpolator="easeInOut" />
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_OBPDialog3"
+        motion:constraintSetEnd="@+id/motion_testFragment_reseter2"
+        android:id="@+id/tran_testFragment_OBPDialogHideTo3"
+        motion:motionInterpolator="easeInOut" />
+    <ConstraintSet
+        android:id="@+id/motion_testFragment_OBPDialog4"
+        motion:deriveConstraintsFrom="@+id/motion_testFragment_reseter3" >
+        <Constraint
+            android:id="@+id/const_testFragmentDialog_onBackPressed"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_reseter3"
+        motion:constraintSetEnd="@+id/motion_testFragment_OBPDialog4"
+        android:id="@+id/tran_testFragment_OBPDialogShowFrom4"
+        motion:motionInterpolator="easeInOut" />
+    <Transition
+        motion:constraintSetStart="@+id/motion_testFragment_OBPDialog4"
+        motion:constraintSetEnd="@+id/motion_testFragment_reseter3"
+        android:id="@+id/tran_testFragment_OBPDialogHideTo4"
+        motion:motionInterpolator="easeInOut" />
+</MotionScene>
