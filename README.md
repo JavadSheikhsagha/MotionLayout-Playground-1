@@ -8,3 +8,4 @@ I made this design in order to make a cool multiple cards shifting through each 
 
 ## Preview
 [https://gifyu.com/image/tiz2]
+![Alt Text](https://github.com/JavadSheikhsagha/MotionLayout-Playground1/blob/main/20210422_143747.gif)
