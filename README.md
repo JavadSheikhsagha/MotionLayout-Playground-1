@@ -7,3 +7,4 @@ I made this design in order to make a cool multiple cards shifting through each 
    **Designer's e-main : zr.pakdaman94@gmail.com**
 
 ## Preview
+[https://gifyu.com/image/tiz2]
