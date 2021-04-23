@@ -1,6 +1,6 @@
 # MotionLayout-Playground 1
 
-I made this design in order to make a cool multiple cards shifting through each other. 
+I made this design in order to make a cool multiple cards shifting through each other. You can change it as much as you want.
 
    **Developer's e-mail : sir.hxt@gmail.com**
     
