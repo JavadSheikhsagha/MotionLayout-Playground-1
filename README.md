@@ -4,11 +4,11 @@ I made this design in order to make a cool multiple cards shifting through each 
 
 
    **Developer's e-mail : sir.hxt@gmail.com** 
-    -  LinkedIn : https://www.linkedin.com/in/javad-sheikhsagha-332420198/ 
-    -  Cv : https://smallpdf.com/result#r=cb97ae79ae7e886043c882d4acf4c1ad&t=share-document
+   - LinkedIn : https://www.linkedin.com/in/javad-sheikhsagha-332420198/ ,
+- CV :  https://smallpdf.com/result#r=cb97ae79ae7e886043c882d4acf4c1ad&t=share-document
     
    **Designer's e-mail : zr.pakdaman94@gmail.com** \n
-    -  Instagram : https://www.instagram.com/zarapakdaman/
+    - Instagram : https://www.instagram.com/zarapakdaman/
 
 ## Preview
 [https://gifyu.com/image/tiz2]
@@ -16,3 +16,4 @@ I made this design in order to make a cool multiple cards shifting through each 
 
 
 Stay Creative ;)
+
