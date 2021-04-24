@@ -16,7 +16,7 @@ I made this design in order to make a cool multiple cards shifting through each 
 
 ### How it works?
 
-It has actually 4 cards one on another and the fourth card has alpha=0. when you click on "PRESS HERE TO MOVE NEXT" button, the first card goes to left and the card 2 fixes at card 1's position. so at this point the card 3 fixes at card 2' position and also card 4 to card 3 but with alpha=1. So where did card 1 go? when it redirected to left and out of the screen, there is a animation with 0 duration that repositions the card 1 to card 4's position and this loop never ends.
+It includes 4 cards one on another and the fourth card has alpha=0. when you click on "PRESS HERE TO MOVE NEXT" button, the first card goes to left and the card 2 fixes at card 1's position. so at this point the card 3 fixes at card 2' position and also card 4 to card 3 but with alpha=1. So where did card 1 go? when it redirected to left and out of the screen, there is a animation with 0 duration that repositions the card 1 to card 4's position and this loop never ends.
 
 Stay Creative ;)
 
