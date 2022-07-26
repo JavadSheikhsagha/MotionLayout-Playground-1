@@ -5,7 +5,6 @@ I made this design in order to make a cool multiple cards shifting through each 
 
    ### **Developer's e-mail : sir.hxt@gmail.com** 
    - LinkedIn : https://www.linkedin.com/in/javad-sheikhsagha-332420198/ ,
-   - CV :  https://docdro.id/3JamRGy ,
     
    ### **Designer's e-mail : zr.pakdaman94@gmail.com** 
    - Instagram : https://www.instagram.com/zarapakdaman/
